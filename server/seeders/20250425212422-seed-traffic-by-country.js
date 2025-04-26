@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = {
   up: async (queryInterface) => {
     await queryInterface.bulkInsert('traffic_by_country', [
