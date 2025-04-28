@@ -175,6 +175,15 @@ Frontend will run at:
 
 ---
 
+## 📋 Scalability Plan
+5 RPS to 50 RPS: Increase server resources (horizontal scaling), use proper connection pooling in MySQL.
+
+50 RPS to 500 RPS: Add Load Balancer, Redis Caching for frequent queries, API rate limiting.
+
+In production, use PM2 or Docker for clustering and process management.
+
+---
+
 ## 🐳 Optional: Docker Setup (Not Implemented Yet)
 
 > I will add Docker support later for full-stack containerization.
