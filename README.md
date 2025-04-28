@@ -108,7 +108,7 @@ npx sequelize-cli db:seed:all
 ### 7. Start Backend Server
 
 ```bash
-npm run dev
+npm start
 ```
 
 or
