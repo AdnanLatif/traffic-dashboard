@@ -167,7 +167,7 @@ Frontend will run at:
 | Install backend dependencies      | `cd server && npm install` |
 | Run Sequelize migrations          | `npx sequelize-cli db:migrate` |
 | Run Sequelize seeders             | `npx sequelize-cli db:seed:all` |
-| Start backend server (dev)         | `npm run dev` |
+| Start backend server (dev)         | `npm start` |
 | Install frontend dependencies     | `cd client && npm install` |
 | Start frontend (Vite)              | `npm run dev` |
 | Undo all migrations (optional)    | `npx sequelize-cli db:migrate:undo:all` |
